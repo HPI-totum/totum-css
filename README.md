@@ -4,7 +4,7 @@
 
 In other projects, just add this stylesheet file :
 ```bash
-https://github.com/HPI-totum/totum-css/build/scss/totum.css
+https://cdn.jsdelivr.net/gh/HPI-totum/totum-css@master/build/scss/totum.css
 ```
 ### Dependancies
 Be sure to have `Open Sans` and `FontAwesome` configured in the project.
