@@ -1,0 +1,23 @@
+{
+  "name": "totum-css",
+  "version": "1.0.0",
+  "description": "compiler css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass . --watch --recursive --output build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HPI-totum/totum-css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HPI-totum/totum-css/issues"
+  },
+  "homepage": "https://github.com/HPI-totum/totum-css#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

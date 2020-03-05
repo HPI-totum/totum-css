@@ -1,0 +1,173 @@
+html {
+  font-size: 14px; }
+
+/* Generic */
+body {
+  background-color: #fafafa;
+  font-family: 'Open Sans', sans-serif; }
+
+footer {
+  margin-top: 100px; }
+
+*[data-href] {
+  cursor: pointer; }
+
+label.required:after {
+  color: #f44336;
+  content: " *"; }
+
+/* Switch pharmacy */
+.select-pharmacy {
+  background-color: transparent;
+  color: white; }
+
+/* Images */
+.img-profile {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; }
+
+/* Breadcrumb */
+.breadcrumb {
+  background-color: transparent;
+  margin-bottom: 0; }
+
+.breadcrumb > li + li:before {
+  font-family: 'Font Awesome 5 Pro';
+  padding: 0 5px;
+  color: #ccc;
+  content: "\f105\00a0"; }
+
+/* Bouton */
+.btn-google {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  z-index: 10;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  line-height: 56px;
+  font-size: 24px;
+  padding: 0;
+  display: flex; }
+  .btn-google.btn-google-2 {
+    bottom: 130px; }
+  .btn-google i {
+    margin: auto; }
+
+/* Navbar */
+nav.navbar .img-profile {
+  width: 30px;
+  height: 30px; }
+
+nav.navbar .navbar-brand {
+  line-height: 30px; }
+  nav.navbar .navbar-brand img {
+    padding: 0 16px;
+    vertical-align: bottom; }
+
+nav.navbar a#navbarDropdown {
+  line-height: 30px;
+  color: white;
+  margin-right: 15px; }
+
+nav.navbar .dropdown-menu {
+  z-index: 1040; }
+  nav.navbar .dropdown-menu i {
+    width: 20px; }
+
+nav.navbar li.nav-item.active {
+  background-color: #ffffffde;
+  border-radius: 6px; }
+  nav.navbar li.nav-item.active a.nav-link {
+    color: #f44336; }
+
+nav.navbar .googleLauncher {
+  color: #333;
+  width: 300px;
+  padding: 10px;
+  min-height: 566px; }
+  nav.navbar .googleLauncher .col-xs-4, nav.navbar .googleLauncher .col-4 {
+    padding-left: 2px;
+    padding-right: 2px; }
+    nav.navbar .googleLauncher .col-xs-4 a, nav.navbar .googleLauncher .col-4 a {
+      display: block;
+      text-align: center;
+      color: #404040;
+      text-decoration: none;
+      border: 1px solid transparent;
+      font-weight: normal;
+      font-stretch: normal;
+      font-size: 13px;
+      font-family: Arial, sans-serif; }
+      nav.navbar .googleLauncher .col-xs-4 a img, nav.navbar .googleLauncher .col-4 a img {
+        display: block;
+        margin: auto; }
+    nav.navbar .googleLauncher .col-xs-4 a:hover, nav.navbar .googleLauncher .col-4 a:hover {
+      border: 1px solid #e5e5e5; }
+
+nav.navbar.navbar-secondrow .navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 8px 16px;
+  color: #ffffffde; }
+
+nav.navbar.navbar-mobile .navbar-nav .nav-link {
+  text-transform: uppercase;
+  padding: 8px 16px;
+  color: #ffffffde; }
+
+/* Pagination */
+.pagination {
+  justify-content: center;
+  margin: 0; }
+  .pagination > li {
+    padding: 0 1px; }
+  .pagination > li > a,
+  .pagination > li > span {
+    border: none;
+    border-radius: 4px;
+    font-weight: 600; }
+  .pagination > .active > a,
+  .pagination > .active > a:focus,
+  .pagination > .active > a:hover,
+  .pagination > .active > span,
+  .pagination > .active > span:focus,
+  .pagination > .active > span:hover {
+    color: #fff; }
+
+/* Print instructions */
+.visible-print {
+  display: none !important; }
+
+.visible-print-block {
+  display: none !important; }
+
+.visible-print-inline {
+  display: none !important; }
+
+.visible-print-inline-block {
+  display: none !important; }
+
+@media print {
+  .visible-print {
+    display: block !important; }
+  table.visible-print {
+    display: table !important; }
+  tr.visible-print {
+    display: table-row !important; }
+  td.visible-print, th.visible-print {
+    display: table-cell !important; }
+  .visible-print-block {
+    display: block !important; }
+  .visible-print-inline {
+    display: inline !important; }
+  .visible-print-inline-block {
+    display: inline-block !important; } }
+
+@media print {
+  .breadcrumb, .btn, .btn-google {
+    display: none; }
+  a[href]:after {
+    content: none !important; } }
